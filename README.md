@@ -1,5 +1,5 @@
 # Nimelk
-A simple JavaScript runtime using the small [elk runtime for microcontrollers](https://github.com/cesanta/elk), using Nim.
+A simple and *Super Bare* JavaScript runtime using the small [elk runtime for microcontrollers](https://github.com/cesanta/elk), using Nim.
 
 ### A quick why
 I wanted to dip into some C programming and decided to connect a small C library to Nim. So I started by creating a c binding for the [elk](https://github.com/cesanta/elk) using [nimterop](https://github.com/nimterop/nimterop) fiddling around with the settings. Until something worked. Finally it worked and I slapped on a simple cli interface with [docopt](https://github.com/docopt/docopt.nim). This might not be the best js runtime as it [misses a lot of features](https://github.com/cesanta/elk?tab=readme-ov-file#not-supported-features) and thus writing js is a pain. So this project can be helpful to some people as it lays down the framework for embedding the elk runtime in Nim.
