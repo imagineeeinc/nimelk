@@ -7,6 +7,6 @@
 
 import unittest
 
-import nimelkpkg/submodule
-test "correct welcome":
-  check getWelcomeMessage() == "Hello, World!"
+import nimelkpkg/runtime
+test "JS retruning correct values":
+  check initRuntime("let a = 1;let b = 2;let c = a + b;a+b === c ? true : false") == "true"
