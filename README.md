@@ -9,6 +9,9 @@ Make sure to have `Nim` and `Git` installed.
 
 ### CLI
 ```shell
+# Get repo
+git clone https://github.com/imagineeeinc/nimelk.git
+
 # Git submoulde elk
 git submodule init
 git submoudle update
