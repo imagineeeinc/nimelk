@@ -30,11 +30,12 @@ nimble run -- run tests/index.js
 ```
 
 ### JS Syntax
-You have no console.logs or any form of input. So to output you only have one chance at the end of the file. With defining the output e.g.:
+You have no input method. You can output using the print function. e.g.:
 ```js
 let a = 1;
 let b = 2;
 let c = a + b;
+print(c);
 a+b >= c ? true : false;
 ```
 this should output true if `a+b` is greater than c. (which always is going to be).
